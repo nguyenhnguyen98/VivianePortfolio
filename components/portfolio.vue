@@ -15,9 +15,9 @@
           </label>
         </li>
         <li>
-          <label for="#personnal" class="cursor-pointer" >
-            <input type="radio" v-model="filter" class="hidden" value="#personnal" id="#personnal" name="radio-group"/> 
-            <h1 class="text-mainBlue font-bold lg:text-xl mx-4" :class="{'underline': filter == '#personnal', 'opacity-50': filter != '#personnal'}">Personnal</h1>
+          <label for="#personal" class="cursor-pointer" >
+            <input type="radio" v-model="filter" class="hidden" value="#personal" id="#personal" name="radio-group"/> 
+            <h1 class="text-mainBlue font-bold lg:text-xl mx-4" :class="{'underline': filter == '#personal', 'opacity-50': filter != '#personal'}">personal</h1>
           </label>
         </li>
       </ul>
@@ -46,21 +46,21 @@ export default {
         filter: 'all',
         works: [
           {source: 'school/Work-1.png', tag: '#school'},
-          {source: 'personnal/Work-1.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-1.jpg', tag: '#personal'}, 
           {source: 'school/Work-2.png', tag: '#school'},
-          {source: 'personnal/Work-2.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-2.jpg', tag: '#personal'}, 
           {source: 'school/Work-3.jpg', tag: '#school'},
-          {source: 'personnal/Work-3.png', tag: '#personnal'}, 
+          {source: 'personal/Work-3.png', tag: '#personal'}, 
           {source: 'school/Work-4.jpg', tag: '#school'},
-          {source: 'personnal/Work-4.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-4.jpg', tag: '#personal'}, 
           {source: 'school/Work-5.png', tag: '#school'},
-          {source: 'personnal/Work-5.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-5.jpg', tag: '#personal'}, 
           {source: 'school/Work-6.jpg', tag: '#school'},
-          {source: 'personnal/Work-6.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-6.jpg', tag: '#personal'}, 
           {source: 'school/Work-7.png', tag: '#school'},
-          {source: 'personnal/Work-7.jpg', tag: '#personnal'}, 
+          {source: 'personal/Work-7.jpg', tag: '#personal'}, 
           {source: 'school/Work-8.jpg', tag: '#school'},
-          {source: 'personnal/Work-8.png', tag: '#personnal'},    
+          {source: 'personal/Work-8.png', tag: '#personal'},    
           {source: 'school/Work-9.jpg', tag: '#school'},
           {source: 'school/Work-10.png', tag: '#school'},
           {source: 'school/Work-11.jpg', tag: '#school'},

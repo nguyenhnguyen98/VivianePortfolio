@@ -1,5 +1,5 @@
 <template>
-  <section ref="contact" id="contact" class="max-w-screen-xl w-full min-h-screen flex flex-col lg:flex-row flex-start items-center lg:items-stretch font-bold py-24 sm:py-32 px-6 sm:px-24 mx-auto">
+  <section ref="contact" id="contact" class="max-w-screen-xl w-full min-h-screen flex flex-col lg:flex-row flex-start items-center lg:items-stretch font-bold py-16 sm:py-32 px-6 sm:px-24 mx-auto">
     <div class="w-full lg:w-1/2">
       <h1 data-aos="custom-flip" data-aos-duration="600" class="font-bold text-mainBlue text-5xl lg:text-6xl mb-2">Let's talk</h1>
       <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mb-4 leading-snug sm:text-lg lg:text-xl">If you want to contact me for any business related inquiries, please fill in the contact form.</p>
@@ -24,7 +24,7 @@
         </button>
       </form>
     </div>
-    <ul class="w-full flex flex-row justify-center mt-10 lg:mt-0 lg:w-1/2 lg:flex-col lg:items-start lg:justify-start lg:pl-80 lg:pt-24">
+    <ul class="w-full flex flex-row justify-center lg:w-1/2 lg:flex-col lg:items-start lg:justify-start lg:pl-80 lg:pt-24">
       <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mx-5 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
         <a class="w-full flex flex-row items-center" href="https://www.artstation.com/b0e0e6" target="_blank">
           <img class="w-6 h-6 lg:w-10 lg:h-10 lg:mr-5" src="~/assets/svg/artstation-black.svg" alt="ArtStation">

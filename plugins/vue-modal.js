@@ -7,6 +7,8 @@ Vue.use(VModal, {
     dynamicDefaults: {
         height: 'auto',
         width: '95%',
+        scrollable: true,
+        focusTrap: true
     }
 });
 

@@ -4,7 +4,7 @@
       <h1 data-aos="custom-flip" data-aos-duration="600" class="font-bold text-mainBlue text-5xl lg:text-6xl mb-2">Hello,</h1>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
         <p class="mb-2 leading-snug sm:text-lg lg:text-xl">I'm currently an Illustration student at Dawson College. I'd love to work with you and learn new things!</p>
-        <p class="leading-snug sm:text-lg lg:text-xl">My main current main art medium is digital, but I do enjoy good old graphite on paper from time to time. I'm also open to learning new stuff and adapt very quickly.</p>
+        <p class="leading-snug sm:text-lg lg:text-xl">My current main art medium is digital, but I do enjoy good old graphite on paper from time to time. I'm also open to learning new stuff and adapt very quickly.</p>
       </div>
     </div>
     <div class="w-full" v-if="$vssWidth	<= 680">
