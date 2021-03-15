@@ -1,6 +1,6 @@
 <template>
   <section ref="portfolio" id="portfolio" class="max-w-screen-xl w-full h-full min-h-screen flex flex-col lg:flex-col flex-start items-center lg:items-stretch font-bold pt-24 px-6 lg:px-0 sm:pt-32 sm:pb-32 mx-auto">
-    <div class="w-full relative z-50">
+    <!-- <div class="w-full relative z-50">
       <ul class="flex flex-row mb-4">
         <li>
           <label for="all" class="cursor-pointer" >
@@ -21,10 +21,10 @@
           </label>
         </li>
       </ul>
-    </div>
+    </div> -->
     <div class="masonry" data-aos="fade-up" data-aos-duration="600">
       <transition-group name="fade">
-      <div class="grid" v-for="(work, index) in filtered" :key="work+index">
+      <div class="grid" v-for="(work, index) in filtered" :key="work+index" @click.prevent="toggleModal(work.source)">
         <img :src="require(`~/assets/images/${work.source}`)">
         <div class="grid__body">
           <div class="mt-auto" >
@@ -38,6 +38,8 @@
 </template>
 
 <script>
+import Viewer from '~/components/viewer'
+
 export default {
     data() {
       return {
@@ -65,6 +67,7 @@ export default {
         ]
       }
     },
+    components: { Viewer },
     computed: {
       filtered() {
         return this.works.filter(x => x.tag == this.filter || this.filter == 'all')
@@ -76,6 +79,9 @@ export default {
           if ( rect.top >= 0 && rect.top <= (window.innerHeight * 0.7 || document.documentElement.clientHeight * 0.7 )) {
             this.$emit('isVisible', {page: 'Portfolio'})
           };
+      },
+      toggleModal(i) {
+        this.$modal.show( Viewer, {link: i})
       }
     },
     beforeMount () {

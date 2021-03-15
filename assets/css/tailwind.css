@@ -74,3 +74,22 @@ body::-webkit-scrollbar-thumb {
   background-color: #333333;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
+
+#modals-container .v--modal-overlay {
+    @apply py-3 pb-5;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+#modals-container .v--modal {
+    box-sizing: border-box;
+    box-shadow: 0 13px 16px 0px rgba(0, 0, 0, 0.16);
+    left: 0!important;
+    @apply max-w-xl rounded-2xl bg-white mx-auto; 
+}
+
+#modals-container h1 {
+    @apply text-center mb-6;
+}
+
+

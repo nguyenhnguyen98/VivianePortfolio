@@ -28,7 +28,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: "~/plugins/aos", ssr: false },
-    { src: "~/plugins/vue-masonary", ssr: false }
+    { src: "~/plugins/vue-modal", ssr: false }
   ],
 
   purgeCSS: {
@@ -60,6 +60,10 @@ export default {
       'Work Sans': true,
       'Shippori Mincho': true
     }
+  },
+
+  router: {
+    base: '/VivianePortfolio/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
