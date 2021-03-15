@@ -1,0 +1,12 @@
+[data-aos="custom-flip"] {
+    opacity: 0;
+    transform-origin: center top;
+    transform-style: preserve-3d;
+    transform: translateY(100%) rotateX(-80deg);
+    transition: opacity 0s cubic-bezier(.215,.61,.355,1),transform 0s cubic-bezier(.215,.61,.355,1);
+}
+
+[data-aos="custom-flip"].aos-animate {
+    opacity: 1;
+    transform: none;
+}

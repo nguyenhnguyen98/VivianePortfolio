@@ -1,0 +1,22 @@
+h1, h2, h3, h4 {
+    font-family: 'Shippori Mincho';
+}
+
+.with-serif {
+    font-family: 'Shippori Mincho';
+}
+
+p {
+    font-family: 'Work Sans';
+    color: #333333;
+}
+
+li {
+    font-family: 'Work Sans';
+    color: #333333;
+}
+
+
+.shadowed {
+    text-shadow: 1px 1px 20px rgba(0,0,0, 0.15);
+}
