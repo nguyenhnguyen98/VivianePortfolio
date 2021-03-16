@@ -63,7 +63,7 @@ export default {
   },
 
   router: {
-    base: '/VivianePortfolio/'
+    // base: '/VivianePortfolio/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
