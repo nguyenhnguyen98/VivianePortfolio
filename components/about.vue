@@ -45,8 +45,8 @@ export default {
       return {
         currentTab: 'Competence',
         otherTab: 'Interest',
-        competences: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe Animate', 'Procreate', 'Paint Tool Sai', 'SketchUp', '3DS Max', 'Mudbox'],
-        interests: ['Concept Art', 'Illustrations', 'Graphic Design', '_', '_', '_', '_', '_']
+        competences: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe Animate', 'Adobe InDesign', 'Procreate', 'Paint Tool Sai', 'SketchUp', '3DS Max', 'Mudbox'],
+        interests: ['Concept Art', 'Illustrations', 'Graphic Design', '_', '_', '_', '_', '_', '_']
       }
     },
     methods: {

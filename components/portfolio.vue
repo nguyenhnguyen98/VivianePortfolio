@@ -46,8 +46,10 @@ export default {
         filter: 'all',
         works: [
           {source: 'school/Work-1.png', tag: '#school'},
+          {source: 'school/Work-1_5.jpg', tag: '#school'},
           {source: 'personal/Work-1.jpg', tag: '#personal'}, 
           {source: 'school/Work-2.png', tag: '#school'},
+          {source: 'school/Work-2_5.png', tag: '#school'},
           {source: 'personal/Work-2.jpg', tag: '#personal'}, 
           {source: 'school/Work-3.jpg', tag: '#school'},
           {source: 'personal/Work-3.png', tag: '#personal'}, 
@@ -63,7 +65,6 @@ export default {
           {source: 'personal/Work-8.png', tag: '#personal'},    
           {source: 'school/Work-9.jpg', tag: '#school'},
           {source: 'school/Work-10.png', tag: '#school'},
-          {source: 'school/Work-11.jpg', tag: '#school'},
         ]
       }
     },
