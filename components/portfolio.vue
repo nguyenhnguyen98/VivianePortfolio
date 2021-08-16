@@ -24,7 +24,7 @@
     </div> -->
     <div class="masonry" data-aos="fade-up" data-aos-duration="600">
       <transition-group name="fade">
-      <div class="grid" v-for="(work, index) in filtered" :key="work+index" @click.prevent="toggleModal(work.source)">
+      <div class="grid cursor-pointer" v-for="(work, index) in filtered" :key="work+index" @click.prevent="toggleModal(work)">
         <img :src="require(`~/assets/images/${work.source}`)">
         <div class="grid__body">
           <div class="mt-auto" >
@@ -46,6 +46,7 @@ export default {
         filter: 'all',
         works: [
           {source: 'school/Work-1.png', tag: '#school'},
+          {source: 'commission/Work-1.jpg', tag: '#commission', desc: 'Commission for “awomanontheinternet”. Portrait of her with her cat in warm lighting.'},
           {source: 'school/Work-1_5.jpg', tag: '#school'},
           {source: 'personal/Work-1.jpg', tag: '#personal'}, 
           {source: 'school/Work-2.png', tag: '#school'},
@@ -65,6 +66,8 @@ export default {
           {source: 'personal/Work-8.png', tag: '#personal'},    
           {source: 'school/Work-9.jpg', tag: '#school'},
           {source: 'school/Work-10.png', tag: '#school'},
+          {source: 'commission/Work-2.png', tag: '#commission', desc: 'Commission for a friend. They requested I recreate a portrait of their father and late grandmother, as they did not have any pictures together.'},
+          {source: 'commission/Work-3.jpg', tag: '#commission', desc: 'Commission for Vedic108, a Twitch streamer. They requested a logo to represent their channel. '},
         ]
       }
     },
@@ -81,8 +84,8 @@ export default {
             this.$emit('isVisible', {page: 'Portfolio'})
           };
       },
-      toggleModal(i) {
-        this.$modal.show( Viewer, {link: i})
+      toggleModal(data) {
+        this.$modal.show( Viewer, {link: data.source, desc: data.desc})
       }
     },
     beforeMount () {

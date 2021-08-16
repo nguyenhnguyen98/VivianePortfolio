@@ -92,4 +92,8 @@ body::-webkit-scrollbar-thumb {
     @apply text-center mb-6;
 }
 
+.transparent-background {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
 
