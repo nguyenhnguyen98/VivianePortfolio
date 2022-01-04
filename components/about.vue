@@ -2,7 +2,7 @@
   <section ref="about" id="about" class="w-full min-h-screen flex flex-col flex-start items-center font-bold py-24 sm:py-32 px-6 mx-auto max-w-5xl">
     <div class="mb-24 sm:mb-32 lg:mb-40 w-full">
       <h1 data-aos="custom-flip" data-aos-duration="600" class="font-bold text-mainBlue text-5xl lg:text-6xl mb-2">Hello,</h1>
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="flex lg:flex-inline">
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="lg:flex lg:flex-row">
         <p class="mb-2 leading-snug sm:text-lg lg:text-xl lg:w-1/2 lg:mr-4">I'm currently an Illustration student at Dawson College. I'd love to work with you and learn new things!</p>
         <p class="leading-snug sm:text-lg lg:text-xl lg:w-1/2 lg:ml-4">My current main art medium is digital, but I do enjoy good old graphite on paper from time to time. I'm also open to learning new stuff and adapt very quickly.</p>
       </div>
