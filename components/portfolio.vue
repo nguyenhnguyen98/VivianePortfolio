@@ -56,7 +56,6 @@ export default {
           {source: 'school/Work-1_5.jpg', tag: '#design'},
           {source: 'personal/Work-1.jpg', tag: '#illustration'},
           {source: 'school/dino_1-min.jpg', tag: '#3D'},
-          {source: 'school/dino_2-min.jpg', tag: '#3D'},
           {source: 'school/dino_3-min.jpg', tag: '#3D'},
           {source: 'school/dino_4-min.jpg', tag: '#3D'},
           {source: 'school/dino_5-min.jpg', tag: '#3D'},
