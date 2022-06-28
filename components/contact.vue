@@ -14,7 +14,7 @@
         </label>
         <label class="block mb-4">
           <span class="text-gray-700">Message</span>
-          <textarea class="form-textarea mt-1 block w-full" rows="3" v-model="form.message" required></textarea>
+          <textarea class="form-textarea mt-1 block w-full" rows="3" v-model="form.message" minlength="25" required></textarea>
         </label>
         <button class="border-2 border-transparent rounded bg-mainBlue w-full py-2 px-4 font-bold uppercase text-white transition-all hover:border-mainBlue hover:bg-transparent hover:text-mainBlue" 
                 :class="{'opacity-50': form.name == '' && form.email == '' && form.message == ''}" 
