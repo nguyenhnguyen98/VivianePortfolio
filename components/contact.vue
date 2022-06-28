@@ -3,7 +3,7 @@
     <div class="w-full lg:w-1/2">
       <h1 data-aos="custom-flip" data-aos-duration="600" class="font-bold text-mainBlue text-5xl lg:text-6xl mb-2">Let's talk</h1>
       <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mb-4 leading-snug sm:text-lg lg:text-xl">If you want to contact me for any business related inquiries, please fill in the contact form.</p>
-      <form data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" @submit.prevent='submit' class="mt-10 mb-5 w-full">
+      <!-- <form data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" @submit.prevent='submit' class="mt-10 mb-5 w-full">
         <label class="block mb-4">
           <span class="text-gray-700">Name</span>
           <input type='text' class="form-input mt-1 block w-full" v-model="form.name" required>
@@ -22,28 +22,29 @@
         >
           Submit
         </button>
-      </form>
+      </form> -->
+      <div class="w-full flex flex-col justify-center mt-4 lg:mt-0 lg:w-1/2 lg:items-start">
+        <ul class="flex flex-col justify-center lg:flex-col lg:items-start lg:justify-start lg:pb-32">
+          <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="w-full mb-2 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
+            <a class="w-full flex flex-row items-center" href="https://www.artstation.com/b0e0e6" target="_blank">
+              <img class="w-6 h-6 lg:w-10 lg:h-10 mr-5" src="~/assets/svg/artstation-black.svg" alt="ArtStation">
+              <span class="leading-snug sm:text-lg lg:text-xl">artstation.com/b0e0e6</span></a></li>
+          <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="w-full mb-2 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
+            <a class="w-full flex flex-row items-center" href="https://www.deviantart.com/b0e0e6" target="_blank">
+              <img class="w-6 h-6 lg:w-10 lg:h-10 mr-5" src="~/assets/svg/deviantart-black.svg" alt="DeviantArt">
+              <span class="leading-snug sm:text-lg lg:text-xl">deviantart.com/b0e0e6</span></a></li>
+          <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="w-full mb-2 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
+            <a class="w-full flex flex-row items-center" href="https://www.instagram.com/_b0e0e6_/" target="_blank">
+              <img class="w-6 h-6 lg:w-10 lg:h-10 mr-5" src="~/assets/svg/instagram-black.svg" alt="Instagram">
+              <span class="leading-snug sm:text-lg lg:text-xl">instagram.com/_b0e0e6_</span></a></li> 
+          <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="w-full mb-2 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
+            <a class="w-full flex flex-row items-center" href="mailto:vivianetranle@gmail.com" target="_blank" >
+              <img class="w-6 h-6 lg:w-10 lg:h-10 mr-5" src="~/assets/svg/gmail-black.svg" alt="Instagram">
+              <span class="leading-snug sm:text-lg lg:text-xl">vivianetranle@gmail.com</span></a></li> 
+        </ul>
+      </div>
     </div>
-    <div class="w-full flex flex-row justify-center mt-4 lg:mt-0 lg:w-1/2 lg:flex-col lg:items-end">
-      <ul class="flex flex-row justify-center lg:flex-col lg:items-start lg:justify-start lg:pb-32">
-        <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mx-5 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
-          <a class="w-full flex flex-row items-center" href="https://www.artstation.com/b0e0e6" target="_blank">
-            <img class="w-6 h-6 lg:w-10 lg:h-10 lg:mr-5" src="~/assets/svg/artstation-black.svg" alt="ArtStation">
-            <span class="leading-snug sm:text-lg lg:text-xl" v-if="$vssWidth > 1024">artstation.com/b0e0e6</span></a></li>
-        <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mx-5 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
-          <a class="w-full flex flex-row items-center" href="https://www.deviantart.com/b0e0e6" target="_blank">
-            <img class="w-6 h-6 lg:w-10 lg:h-10 lg:mr-5" src="~/assets/svg/deviantart-black.svg" alt="DeviantArt">
-            <span class="leading-snug sm:text-lg lg:text-xl" v-if="$vssWidth > 1024">deviantart.com/b0e0e6</span></a></li>
-        <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mx-5 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
-          <a class="w-full flex flex-row items-center" href="https://www.instagram.com/_b0e0e6_/" target="_blank">
-            <img class="w-6 h-6 lg:w-10 lg:h-10 lg:mr-5" src="~/assets/svg/instagram-black.svg" alt="Instagram">
-            <span class="leading-snug sm:text-lg lg:text-xl" v-if="$vssWidth > 1024">instagram.com/_b0e0e6_</span></a></li> 
-        <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mx-5 lg:mx-0 lg:mb-4 transform transition duration-150 hover:scale-110">
-          <a class="w-full flex flex-row items-center" href="mailto:vivianetranle@gmail.com" target="_blank" >
-            <img class="w-6 h-6 lg:w-10 lg:h-10 lg:mr-5" src="~/assets/svg/gmail-black.svg" alt="Instagram">
-            <span class="leading-snug sm:text-lg lg:text-xl" v-if="$vssWidth > 1024">vivianetranle@gmail.com</span></a></li> 
-      </ul>
-    </div>
+    
   </section>
 </template>
 
