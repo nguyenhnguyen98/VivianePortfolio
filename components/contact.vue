@@ -2,7 +2,7 @@
   <section ref="contact" id="contact" class="max-w-5xl w-full min-h-screen flex flex-col lg:flex-row flex-start items-center  font-bold py-16 sm:py-32 px-6 mx-auto">
     <div class="w-full lg:w-1/2">
       <h1 data-aos="custom-flip" data-aos-duration="600" class="font-bold text-mainBlue text-5xl lg:text-6xl mb-2">Let's talk</h1>
-      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mb-4 leading-snug sm:text-lg lg:text-xl">If you want to contact me for any business related inquiries, please fill in the contact form.</p>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" class="mb-4 leading-snug sm:text-lg lg:text-xl">If you want to contact me for any business related inquiries, please contact me via email.</p>
       <!-- <form data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" @submit.prevent='submit' class="mt-10 mb-5 w-full">
         <label class="block mb-4">
           <span class="text-gray-700">Name</span>
